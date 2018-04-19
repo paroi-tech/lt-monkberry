@@ -1,0 +1,41 @@
+{
+  "name": "lt-monkberry",
+  "version": "0.1.0",
+  "description": "Helps to use the \"monkberry\" template engine as a library",
+  "main": "lt-monkberry.min.js",
+  "types": "lt-monkberry.d.ts",
+  "dependencies": {
+    "monkberry": "4.x"
+  },
+  "devDependencies": {
+    "rollup": "0.58.1",
+    "typescript": "2.8.1",
+    "uglify-es": "3.3.9",
+    "npm-run-all": "4.1.2",
+    "rimraf": "2.6.2"
+  },
+  "scripts": {
+    "_clear": "rimraf build/compiled/*",
+    "_tsc": "tsc",
+    "_make-bundle": "node build/make-bundle",
+    "build": "run-s _clear _tsc _make-bundle",
+    "watch": "tsc --watch"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paleo/lt-monkberry.git"
+  },
+  "author": {
+    "name": "Paleo"
+  },
+  "license": "CC0-1.0",
+  "keywords": [
+    "monkberry",
+    "library",
+    "template",
+    "engine"
+  ]
+}

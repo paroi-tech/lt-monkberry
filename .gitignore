@@ -1,0 +1,4 @@
+node_modules
+/build/compiled
+/lt-monkberry.d.ts
+/lt-monkberry.min.js
