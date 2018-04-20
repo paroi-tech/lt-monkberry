@@ -1,6 +1,6 @@
 {
-  "name": "lt-monkberry",
-  "version": "0.1.0",
+  "name": "@fabtom/lt-monkberry",
+  "version": "0.2.0",
   "description": "Helps to use the \"monkberry\" template engine as a library",
   "main": "lt-monkberry.min.js",
   "types": "lt-monkberry.d.ts",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paleo/lt-monkberry.git"
+    "url": "git+https://github.com/fabtom/lt-monkberry.git"
   },
   "author": {
     "name": "Paleo"

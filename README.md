@@ -7,12 +7,12 @@ This package helps to use the [monkberry](https://github.com/antonmedv/monkberry
 ## Install
 
 ```bash
-npm install monkberry lt-monkberry
+npm install monkberry @fabtom/lt-monkberry
 ```
 
 ## How to use
 
-The `template.monk` file:
+A `template.monk` file:
 
 ```html
 <form>
@@ -21,7 +21,7 @@ The `template.monk` file:
 </form>
 ```
 
-The JavaScript code:
+Some JavaScript code:
 
 ```js
 import { render } from "lt-monkberry"
