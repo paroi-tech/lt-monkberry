@@ -1,4 +1,4 @@
-# LT-Monkberry
+# @fabtom/lt-monkberry
 
 Lesser Than Monkberry.
 
