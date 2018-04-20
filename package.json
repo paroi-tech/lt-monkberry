@@ -1,6 +1,6 @@
 {
   "name": "@fabtom/lt-monkberry",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Helps to use the \"monkberry\" template engine as a library",
   "main": "lt-monkberry.min.js",
   "types": "lt-monkberry.d.ts",
