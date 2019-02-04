@@ -21,7 +21,7 @@ async function build() {
     sourcemap: false
   })
   if (output.length !== 1)
-    throw new Error(`Output file of Rollup should be 1 (current: ${output.length})`)
+    throw new Error(`Only one output file from Rollup is expected (${output.length})`)
   let { code } = output[0]
   let minified = uglifyEs.minify(code)
   if (minified.error)
