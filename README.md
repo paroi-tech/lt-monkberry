@@ -1,4 +1,4 @@
-# @fabtom/lt-monkberry
+# @tomko/lt-monkberry
 
 Lesser Than Monkberry.
 
@@ -7,7 +7,7 @@ This package helps to use the [monkberry](https://github.com/antonmedv/monkberry
 ## Install
 
 ```bash
-npm install monkberry @fabtom/lt-monkberry
+npm install monkberry @tomko/lt-monkberry
 ```
 
 ## How to use
@@ -24,7 +24,7 @@ A `template.monk` file:
 Some JavaScript code:
 
 ```js
-import { render } from "@fabtom/lt-monkberry"
+import { render } from "@tomko/lt-monkberry"
 
 const template = require("./template.monk")
 
@@ -59,7 +59,7 @@ The type `LtMonkberryReferences`: each reference name in the template is a prope
 ```
 
 ```js
-import { render } from "@fabtom/lt-monkberry"
+import { render } from "@tomko/lt-monkberry"
 let view = render(require("./template.monk"))
 console.log(view.references) // {"myInput": [-dom-input-1-, -dom-input-2-], "btn": [-dom-button-1-]}
 ```
